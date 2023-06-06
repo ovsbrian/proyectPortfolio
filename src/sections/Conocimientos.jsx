@@ -11,7 +11,7 @@ import { ItemContainer } from "../components/ContainerIcons";
 export const SectionConocimientos = () => {
   return (
     <>
-      <ItemContainer text="Mis Conocimientos 🤓">
+      <ItemContainer text="Mis Conocimientos 🧠">
         <SiReact className="hover:text-slate-700" size={30} name="React" />
         <SiJavascript
           className="hover:text-slate-700"
