@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 export const Container = ({ children, titulo, info, img, url }) => {
   return (
     <>
-      <div className="w-full items-center h-36 rounded p-3 flex flex-col   ">
+      <div className="w-full items-center rounded p-4 flex flex-col   ">
         <h2 className="font-bold m-2">
           <a
             href={url}
@@ -12,6 +12,9 @@ export const Container = ({ children, titulo, info, img, url }) => {
             {titulo}
           </a>
         </h2>
+        <div className="h-auto mb-4">
+          <p className="p-2 text-justify">{children}</p>
+        </div>
         <div className="p-2 flex select-none mb-2">
           <a
             href="https://ovsbrian.github.io/ageCalculatorApp/"
@@ -25,9 +28,6 @@ export const Container = ({ children, titulo, info, img, url }) => {
           </a>
         </div>
         <div className="flex gap-10 m-4">{info}</div>
-        <div className="h-auto mb-4">
-          <p className="m-4 p-2 text-justify">{children}</p>
-        </div>
       </div>
     </>
   );

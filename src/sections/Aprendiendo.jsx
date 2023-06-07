@@ -5,7 +5,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 export const SectionAprendiendo = () => {
   return (
     <>
-      <ItemContainer text={"Estudiando ⏲"}>
+      <ItemContainer text={"Estudiando 📚"}>
         <TbBrandReactNative
           className="hover:text-slate-700"
           name="React Native"

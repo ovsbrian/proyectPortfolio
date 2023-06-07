@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <ContainerPage>
-        <div className="mt-9 flex flex-col gap-5  select-none ">
+        <div className="mt-5 flex flex-col gap-5 select-none ">
           <h2 className="text-4xl font-semibold">Hola, soy Brian!</h2>
           <p className="font-medium">
             <b>Developer Web Jr </b>de Uruguay. Me apasiona crear sitios web y

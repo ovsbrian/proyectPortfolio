@@ -18,7 +18,7 @@ export const Projects = () => {
         <div className="w-full flex flex-col gap-4 ">
           <Container
             img={"./src/assets/project3.png"}
-            titulo={"App Age Calculator"}
+            titulo={"📆 App Age Calculator 📅"}
             url={"https://ovsbrian.github.io/ageCalculatorApp/"}
             info={[
               <Tecnologia key="react" icon={<SiReact />} />,
@@ -29,12 +29,14 @@ export const Projects = () => {
               <Tecnologia key="html5" icon={<FaHtml5 />} />,
             ]}
           >
-            <b>¿Te gustaría saber cuántos días has vivido hasta ahora?</b> Con
-            esta aplicación <b>sencilla y divertida</b> podrás descubrirlo en
-            segundos. Solo tienes que ingresar tu <b>fecha de nacimiento</b> y
-            te mostrará tu <b>edad exacta</b> en años, meses y días. Además, la
-            aplicación se <b>adapta a la pantalla de tu celular</b>, así que
-            podrás consultarla en cualquier momento y lugar.
+            <p>
+              <b>¿Te gustaría saber cuántos días has vivido hasta ahora?</b> Con
+              esta aplicación <b>sencilla y divertida</b> podrás descubrirlo en
+              segundos. Solo tienes que ingresar tu <b>fecha de nacimiento</b> y
+              te mostrará tu <b>edad exacta</b> en años, meses y días. Además,
+              la aplicación se <b>adapta a la pantalla de tu celular</b>, así
+              que podrás consultarla en cualquier momento y lugar.
+            </p>
           </Container>
         </div>
       </ItemContainer>
