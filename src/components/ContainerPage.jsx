@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { SwitchButton } from "./SwitchBtn";
 
 const white =
@@ -28,4 +28,7 @@ export const ContainerPage = ({ children }) => {
       </div>
     </>
   );
+};
+ContainerPage.propTypes = {
+  children: Element.string,
 };
