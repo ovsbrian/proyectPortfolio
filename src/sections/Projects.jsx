@@ -17,7 +17,7 @@ export const Projects = () => {
       <ItemContainer text={"Mis Proyectos 📂"}>
         <div className="w-full flex flex-col gap-4 ">
           <Container
-            img={"./src/assets/project3.png"}
+            img={"/project3.png"}
             titulo={"📆 App Age Calculator 📅"}
             url={"https://ovsbrian.github.io/ageCalculatorApp/"}
             info={[

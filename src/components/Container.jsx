@@ -6,6 +6,7 @@ export const Container = ({ children, titulo, info, img, url }) => {
         <h2 className="font-bold m-2">
           <a
             href={url}
+            rel="noreferrer"
             target="_blank"
             className="hover:text-slate-700 hover:cursor-pointer"
           >
@@ -18,16 +19,19 @@ export const Container = ({ children, titulo, info, img, url }) => {
         <div className="p-2 flex select-none mb-2">
           <a
             href="https://ovsbrian.github.io/ageCalculatorApp/"
+            rel="noreferrer"
             target="_blank"
           >
-            <img
-              className=" w-full rounded-md hover:opacity-80"
-              src={img}
-              alt="Project Image"
-            />
+            {
+              <img
+                className=" w-full rounded-md hover:opacity-80"
+                src={img}
+                alt="Project Image"
+              />
+            }
           </a>
         </div>
-        <div className="flex gap-10 m-4">{info}</div>
+        <div className="flex gap-5 m-4">{info}</div>
       </div>
     </>
   );
@@ -37,4 +41,5 @@ Container.propTypes = {
   img: PropTypes.string,
   titulo: PropTypes.string,
   info: PropTypes.string,
+  url: PropTypes.string,
 };

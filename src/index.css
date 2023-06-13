@@ -21,3 +21,23 @@
 }
 
  
+.icon {
+  /* tamaño por defecto */
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .icon {
+    /* tamaño más grande para pantallas más pequeñas */
+    font-size: 28px;
+  }
+}
+
+
+.backgroundDark{
+  background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+}
+
+.backgroundLight{
+  background: linear-gradient(220.55deg, #EAEAEA 0%, #8B8B8B 100%);
+}
