@@ -30,12 +30,11 @@ export const Projects = () => {
             ]}
           >
             <p>
-              <b>¿Te gustaría saber cuántos días has vivido hasta ahora?</b> Con
-              esta aplicación <b>sencilla y divertida</b> podrás descubrirlo en
-              segundos. Solo tienes que ingresar tu <b>fecha de nacimiento</b> y
-              te mostrará tu <b>edad exacta</b> en años, meses y días. Además,
-              la aplicación se <b>adapta a la pantalla de tu celular</b>, así
-              que podrás consultarla en cualquier momento y lugar.
+              Descubre cuántos <b>días</b> has vivido con esta <b>aplicación</b>
+              sencilla y divertida. Solo ingresa tu <b>fecha de nacimiento</b> y
+              obtén tu <b>edad exacta</b> en años, meses y días.
+              <b>Se adapta a la pantalla de tu celular </b>para que puedas
+              consultarla en cualquier momento y lugar.
             </p>
           </Container>
         </div>

@@ -2,16 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 /* Estilo para la barra de desplazamiento en WebKit */
 ::-webkit-scrollbar {
   width: 14px;
   height: 10px;
-}
-
-::-webkit-scrollbar-track {
-   
 }
 
 ::-webkit-scrollbar-thumb { height: 10px;
@@ -20,7 +14,6 @@
   border: 3px solid rgba(0, 0, 0, 0.757);
 }
 
- 
 .icon {
   /* tamaño por defecto */
   font-size: 24px;
@@ -32,7 +25,6 @@
     font-size: 28px;
   }
 }
-
 
 .backgroundDark{
   background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
